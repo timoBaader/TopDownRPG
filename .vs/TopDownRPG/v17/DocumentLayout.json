@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{73E5204A-9E1B-9227-6DB4-85F06CC0C65D}|Assembly-CSharp.csproj|e:\\unity projects\\topdownrpg\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73E5204A-9E1B-9227-6DB4-85F06CC0C65D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73E5204A-9E1B-9227-6DB4-85F06CC0C65D}|Assembly-CSharp.csproj|E:\\Unity Projects\\TopDownRPG\\assets\\art\\characters\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{73E5204A-9E1B-9227-6DB4-85F06CC0C65D}|Assembly-CSharp.csproj|solutionrelative:assets\\art\\characters\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.txt",
+              "DocumentMoniker": "E:\\Unity Projects\\TopDownRPG\\Assets\\Art\\characters\\README.txt",
+              "RelativeDocumentMoniker": "Assets\\Art\\characters\\README.txt",
+              "ToolTip": "E:\\Unity Projects\\TopDownRPG\\Assets\\Art\\characters\\README.txt",
+              "RelativeToolTip": "Assets\\Art\\characters\\README.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-28T10:07:58.59Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "E:\\Unity Projects\\TopDownRPG\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAApAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCcAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T12:40:20.329Z",
               "EditorCaption": ""
