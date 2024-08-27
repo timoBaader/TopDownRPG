@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{73E5204A-9E1B-9227-6DB4-85F06CC0C65D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73E5204A-9E1B-9227-6DB4-85F06CC0C65D}|Assembly-CSharp.csproj|E:\\Unity Projects\\TopDownRPG\\assets\\art\\characters\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{73E5204A-9E1B-9227-6DB4-85F06CC0C65D}|Assembly-CSharp.csproj|solutionrelative:assets\\art\\characters\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{73E5204A-9E1B-9227-6DB4-85F06CC0C65D}|Assembly-CSharp.csproj|E:\\Unity Projects\\TopDownRPG\\assets\\scripts\\entitymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73E5204A-9E1B-9227-6DB4-85F06CC0C65D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entitymover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "README.txt",
-              "DocumentMoniker": "E:\\Unity Projects\\TopDownRPG\\Assets\\Art\\characters\\README.txt",
-              "RelativeDocumentMoniker": "Assets\\Art\\characters\\README.txt",
-              "ToolTip": "E:\\Unity Projects\\TopDownRPG\\Assets\\Art\\characters\\README.txt",
-              "RelativeToolTip": "Assets\\Art\\characters\\README.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-07-28T10:07:58.59Z"
+              "Title": "EntityMover.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\TopDownRPG\\Assets\\Scripts\\EntityMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EntityMover.cs",
+              "ToolTip": "E:\\Unity Projects\\TopDownRPG\\Assets\\Scripts\\EntityMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EntityMover.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T09:23:15.904Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "E:\\Unity Projects\\TopDownRPG\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCcAAAAoAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T12:40:20.329Z",
               "EditorCaption": ""
