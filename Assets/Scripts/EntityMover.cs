@@ -10,9 +10,10 @@ public class EntityMover
     private Rigidbody2D _rb;
     private List<RaycastHit2D> _castCollisions = new List<RaycastHit2D>();
 
-    public EntityMover(Rigidbody2D rigidbody, float moveSpeed = 1f)
+    public EntityMover(Rigidbody2D rigidbody, ContactFilter2D contactFilter, float moveSpeed = 1f)
     {
         _rb = rigidbody;
+        _contactFilter = contactFilter;
         _moveSpeed = moveSpeed;
     }
 
