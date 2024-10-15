@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EntityMover
+public class EntityMover : MonoBehaviour
 {
     private float _moveSpeed;
     private float _collisionOffset = 0.05f;
@@ -10,14 +10,18 @@ public class EntityMover
     private Rigidbody2D _rb;
     private List<RaycastHit2D> _castCollisions = new List<RaycastHit2D>();
 
-    public EntityMover(Rigidbody2D rigidbody, ContactFilter2D contactFilter, float moveSpeed = 1f)
+    void Awake()
     {
-        _rb = rigidbody;
+        _rb = GetComponent<Rigidbody2D>();
+    }
+
+    public void Initialize(ContactFilter2D contactFilter, float moveSpeed)
+    {
         _contactFilter = contactFilter;
         _moveSpeed = moveSpeed;
     }
 
-    public bool TryMove(Vector2 direction)
+    private bool TryMove(Vector2 direction)
     {
         // Check for collisions
         int count = _rb.Cast(

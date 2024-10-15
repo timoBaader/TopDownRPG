@@ -4406,6 +4406,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6332277601867230567, guid: 145cc70424446ff498261e1ad8adf3db, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8730472256064395486}
+    - targetCorrespondingSourceObject: {fileID: 6332277601867230567, guid: 145cc70424446ff498261e1ad8adf3db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8730472256064395493}
   m_SourcePrefab: {fileID: 100100000, guid: 145cc70424446ff498261e1ad8adf3db, type: 3}
 --- !u!1 &8730472256064395484 stripped
 GameObject:
@@ -4424,9 +4427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d07487f75c98be4b9d963a650c8453c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
-  collisionOffset: 0.02
-  contactFilter:
+  MoveSpeed: 1
+  CollisionOffset: 0.05
+  ContactFilter:
     useTriggers: 0
     useLayerMask: 0
     useDepth: 0
@@ -4435,11 +4438,23 @@ MonoBehaviour:
     useOutsideNormalAngle: 0
     layerMask:
       serializedVersion: 2
-      m_Bits: 1
+      m_Bits: 0
     minDepth: 0
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+--- !u!114 &8730472256064395493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8730472256064395484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3cb4c1899e5aac4a81dc5b9805a68a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
